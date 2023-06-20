@@ -140,6 +140,14 @@ nav > ul > li {
   list-style-type: none;
 }
 
+.cta-footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  min-height: 70px;
+  width: 70%;
+  border-top: 1px solid #5a6ba5;
+}
+
 /* BUTTONS */
 
 .s-button {
@@ -180,13 +188,6 @@ nav > ul > li {
   margin-bottom: 30px;
 }
 
-.cta-footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  min-height: 70px;
-  width: 70%;
-}
-
 .margin-left {
   margin-left: 50px;
 }
@@ -214,7 +215,6 @@ nav > ul > li {
 .container-cta-footer {
   width: 100%;
   margin-top: 10px;
-  border-top: 2px solid white;
 }
 
 /* FLEX FUCTIONS */
@@ -299,11 +299,12 @@ nav > ul > li {
   background: #23272a;
 }
 
-.bg-cta-footer {
-  background: #7fffd4;
-}
-
 .bg-main-button {
   background: #8da0e0;
+  color: white;
+}
+
+.bg-footer-button {
+  background: #96abf0;
   color: white;
 }
