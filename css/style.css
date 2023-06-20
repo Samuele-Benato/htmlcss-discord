@@ -22,6 +22,11 @@ img {
   max-width: 100%;
 }
 
+.col70-m > img,
+.col100 > div > img {
+  min-width: 90%;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -70,7 +75,54 @@ nav > ul > li {
   padding-bottom: 1.5rem;
 }
 
-/* SECTION */
+/* MAIN SECTION */
+
+.col30-m > h2,
+.col100 > div > h2 {
+  font-size: 3.5rem;
+  color: #0e0e0e;
+  padding: 30px;
+}
+
+.col30-m > p,
+.col100 > div > p {
+  font-size: 1.5rem;
+  color: #0e0e0e;
+  padding: 30px;
+}
+
+.question-m {
+  font-size: 2.5rem;
+  padding-bottom: 40px;
+}
+
+/* FOOTER */
+
+.footer-left-text {
+  padding-right: 60px;
+  padding-bottom: 30px;
+  font-size: 2.5rem;
+  color: #5a6ba5;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+  color: white;
+  width: 50%;
+  padding-top: 15px;
+  list-style-type: none;
+}
+
+.text-flag-footer {
+  font-size: 1rem;
+  color: white;
+}
+
+.text-flag-footer > img {
+  width: 2rem;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
 
 /* BUTTONS */
 
@@ -123,6 +175,10 @@ nav > ul > li {
   margin-left: 50px;
 }
 
+.final-main-padding {
+  padding-bottom: 150px;
+}
+
 .t-center {
   text-align: center;
 }
@@ -173,12 +229,16 @@ nav > ul > li {
   justify-content: flex-end;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .items-center {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.flex-column {
+  flex-direction: column;
 }
 
 /* COL % */
@@ -192,38 +252,33 @@ nav > ul > li {
   padding: 10px;
 }
 
-.col30 {
-  width: 30%;
-  background-color: #f08080;
-  min-height: 450px;
-  padding: 10px;
-}
-
-.col40 {
-  width: 40%;
-  background-color: #ffc0cb;
-  min-height: 450px;
-}
-
 .col50 {
   width: 50%;
   height: 4rem;
 }
 
-.col60 {
-  width: 60%;
-  background-color: #1e90ff;
+.col30-m {
+  width: 30%;
 }
 
-.col70 {
+.col70-m {
   width: 70%;
-  background: #20b2aa;
 }
 
 .col100 {
   width: 100%;
-  min-height: 700px;
-  background: #228b22;
+}
+
+.col30-f {
+  width: 30%;
+  min-height: 450px;
+  padding-top: 60px;
+}
+
+.col70-f {
+  width: 70%;
+  background: #20b2aa;
+  padding-top: 60px;
 }
 
 /* BG-COLOR */
@@ -238,4 +293,9 @@ nav > ul > li {
 
 .bg-cta-footer {
   background: #7fffd4;
+}
+
+.bg-main-button {
+  background: #8da0e0;
+  color: white;
 }

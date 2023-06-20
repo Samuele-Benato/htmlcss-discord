@@ -71,11 +71,11 @@
     <main>
       <!--SECTION-->
       <section class="main-padding">
-        <div class="flex container debug">
-          <div class="col60 debug">
+        <div class="flex container">
+          <div class="col70-m">
             <img src="./img/item1.svg" alt="item 1" />
           </div>
-          <div class="col40">
+          <div class="col30-m">
             <h2>
               Un luogo a invito con tutto lo spazio necessario per parlare
             </h2>
@@ -89,8 +89,8 @@
       </section>
       <!--SECTION-->
       <section class="main-padding bg-grey">
-        <div class="flex container debug">
-          <div class="col40 debug">
+        <div class="flex container">
+          <div class="col30-m">
             <h2>Dove trovarsi è facile</h2>
             <p>
               Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel
@@ -98,18 +98,18 @@
               senza dovwer chiamare.
             </p>
           </div>
-          <div class="col60">
+          <div class="col70-m">
             <img src="./img/item2.svg" alt="item 2" />
           </div>
         </div>
       </section>
       <!--SECTION-->
       <section class="main-padding">
-        <div class="flex container debug">
-          <div class="col60 debug">
+        <div class="flex container">
+          <div class="col70-m">
             <img src="img/item3.svg" alt="item 3" />
           </div>
-          <div class="col40">
+          <div class="col30-m">
             <h2>Da pochi a un fandom</h2>
             <p>
               Dai inizio a una community di qualsiasi dimensione con strumenti
@@ -120,9 +120,9 @@
         </div>
       </section>
       <!--LAST SECTION-->
-      <section class="main-padding bg-grey">
-        <div class="container debug">
-          <div class="col100 debug">
+      <section class="main-padding bg-grey final-main-padding">
+        <div class="container">
+          <div class="col100 t-center">
             <div>
               <h2>Tecnologia affidabile per tenersi in contatto</h2>
               <p>
@@ -134,10 +134,12 @@
               <img src="./img/item4-big.svg" alt="big image" />
             </div>
             <div>
-              <h3>
-                Pronto a iniziare la tua avventura?
-                <input type="button" value="Scarica per Mac" />
-              </h3>
+              <h3 class="question-m">Pronto a iniziare la tua avventura?</h3>
+              <input
+                class="m-button bg-main-button"
+                type="button"
+                value="Scarica per Mac"
+              />
             </div>
           </div>
         </div>
@@ -145,12 +147,14 @@
     </main>
     <!--FOOTER-->
     <footer class="footer-padding-top bg-darkgrey">
-      <div class="flex container debug footer-margin-bottom">
+      <div class="flex container footer-margin-bottom">
         <!--LEFT COLON-->
-        <div class="col30 debug">
-          <h3>Il tuo posto per parlare</h3>
-          <img src="./img/ita.png" alt="bandiera italiana" />italiano
-          <ul class="flex items-center">
+        <div class="col30-f flex flex-column">
+          <h3 class="footer-left-text">Il tuo posto per parlare</h3>
+          <div class="flex items-center text-flag-footer">
+            <img src="./img/ita.png" alt="bandiera italiana" />italiano
+          </div>
+          <ul class="flex justify-between social-icons">
             <li><i class="fa-brands fa-twitter"></i></li>
             <li><i class="fa-brands fa-instagram"></i></li>
             <li><i class="fa-brands fa-facebook"></i></li>
@@ -158,9 +162,9 @@
           </ul>
         </div>
         <!--RIGHT COLON-->
-        <div class="col70 flex">
+        <div class="col70-f flex">
           <!--COL 1/4-->
-          <div class="w-debug col25">
+          <div class="col25">
             <ul>
               <li>
                 <h4>Prodotto</h4>
