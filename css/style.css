@@ -98,7 +98,7 @@ nav > ul > li {
 
 /* FOOTER */
 
-.footer-left-text {
+.footer-left-title {
   padding-right: 60px;
   padding-bottom: 30px;
   font-size: 2.5rem;
@@ -122,6 +122,22 @@ nav > ul > li {
   width: 2rem;
   padding-right: 5px;
   padding-bottom: 10px;
+}
+
+.footer-right-title {
+  padding-right: 60px;
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  color: #5a6ba5;
+}
+
+.footer-right-list {
+  padding-bottom: 15px;
+  font-size: 1.25rem;
+}
+
+.list-style-none {
+  list-style-type: none;
 }
 
 /* BUTTONS */
@@ -201,12 +217,6 @@ nav > ul > li {
   border-top: 2px solid white;
 }
 
-/* BUTTON */
-
-.f-button {
-  padding: 5px;
-  background: #f08080;
-}
 /* FLEX FUCTIONS */
 
 .flex {
@@ -245,7 +255,6 @@ nav > ul > li {
 
 .col25 {
   width: 25%;
-  height: 4rem;
 }
 
 .col70 > .col25 {
@@ -277,7 +286,6 @@ nav > ul > li {
 
 .col70-f {
   width: 70%;
-  background: #20b2aa;
   padding-top: 60px;
 }
 
