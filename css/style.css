@@ -14,6 +14,15 @@
   border: 2px dashed white;
 }
 
+body {
+  font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
 .header-container {
   width: 70%;
   background: rgb(214, 171, 61);

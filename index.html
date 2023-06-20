@@ -6,6 +6,15 @@
     <title>Discord Structure</title>
     <meta name="author" content="Samuele Benato" />
     <meta name="description" content="Struttura sito Discord" />
+    <!--FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--STYLE CSS-->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
   </head>
@@ -14,17 +23,17 @@
     <header class="flex">
       <div class="header-container items-centre flex debug">
         <!--LOGO-->
-        <div class="debug header-padding col25 flex items-center items-center">
-          Logo
+        <div class="debug col25 flex items-center items-center">
+          <img src="./img/logo.svg" alt="logo Discord" />
         </div>
         <!--NAV-->
         <nav class="debug header-padding col50">
           <ul class="justify-center f-shrink items-center flex">
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
+            <li><a href="#">Scarica</a></li>
+            <li><a href="#">Perchè Discord</a></li>
+            <li><a href="#">Nitro</a></li>
+            <li><a href="#">Sicurezza</a></li>
+            <li><a href="#">Assistenza</a></li>
           </ul>
         </nav>
 
@@ -32,12 +41,24 @@
         <div
           class="debug header-padding col25 flex items-center items-center justify-f-end"
         >
-          Login
+          <input type="button" value="Accedi" />
         </div>
       </div>
       <!--BG-BLUE-->
       <section class="flex justify-center bg-blue items-center">
-        <div class="big-card"></div>
+        <div class="big-card">
+          <h1>Il tuo posto per parlare</h1>
+          <p>
+            che tu faccia parte di un club scolastico,gruppo di gamer, comunità
+            artistica mondiale, o semplicemente di un piccolo gruppo di amici
+            che vuole passare il tempo assieme, Discord rende più facile
+            chiacchierare ogni giorno e ritrovarsi più spesso.
+          </p>
+          <div>
+            <input type="button" value="scarica per Mac" />
+            <input type="button" value="Apri Discord nel tuo browser" />
+          </div>
+        </div>
       </section>
     </header>
     <!--MAIN-->
@@ -45,28 +66,74 @@
       <!--SECTION-->
       <section class="main-padding">
         <div class="flex container debug">
-          <div class="col60 debug"></div>
-          <div class="col40"></div>
+          <div class="col60 debug">
+            <img src="./img/item1.svg" alt="item 1" />
+          </div>
+          <div class="col40">
+            <h2>
+              Un luogo a invito con tutto lo spazio necessario per parlare
+            </h2>
+            <p>
+              I server Discord sono organizzati in canali tematici in cui puoi
+              collaborare, condividere o semplicemente parlare della tua
+              giornata senza intasare una chat di gruppo.
+            </p>
+          </div>
         </div>
       </section>
       <!--SECTION-->
       <section class="main-padding bg-grey">
         <div class="flex container debug">
-          <div class="col40 debug"></div>
-          <div class="col60"></div>
+          <div class="col40 debug">
+            <h2>Dove trovarsi è facile</h2>
+            <p>
+              Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel
+              tuo server possono vedere che sei lì e unirsi istantaneamente
+              senza dovwer chiamare.
+            </p>
+          </div>
+          <div class="col60">
+            <img src="./img/item2.svg" alt="item 2" />
+          </div>
         </div>
       </section>
       <!--SECTION-->
       <section class="main-padding">
         <div class="flex container debug">
-          <div class="col60 debug"></div>
-          <div class="col40"></div>
+          <div class="col60 debug">
+            <img src="img/item3.svg" alt="item 3" />
+          </div>
+          <div class="col40">
+            <h2>Da pochi a un fandom</h2>
+            <p>
+              Dai inizio a una community di qualsiasi dimensione con strumenti
+              di moderazione e accesso ai membri personalizzabile. Concedi ai
+              membri poteri speciali, crea canali privati, e molto altro.
+            </p>
+          </div>
         </div>
       </section>
       <!--LAST SECTION-->
       <section class="main-padding bg-grey">
         <div class="container debug">
-          <div class="col100 debug"></div>
+          <div class="col100 debug">
+            <div>
+              <h2>Tecnologia affidabile per tenersi in contatto</h2>
+              <p>
+                Video e audio a bassa latenza ti faranno sentire come se foste
+                tutti nella stessa stanza. Fai ciao in video, guarda gli amici
+                giocare in streaming, o riunitevi in una sessione di disegno con
+                la condivisione schermo.
+              </p>
+              <img src="./img/item4-big.svg" alt="big image" />
+            </div>
+            <div>
+              <h3>
+                Pronto a iniziare la tua avventura?
+                <input type="button" value="Scarica per Mac" />
+              </h3>
+            </div>
+          </div>
         </div>
       </section>
     </main>
