@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL */
+
+.debug {
+  border: 2px dashed black;
+}
+
+.w-debug {
+  border: 2px dashed white;
+}
+
+.header-container {
+  width: 70%;
+  background: rgb(214, 171, 61);
+  margin: 20px auto;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #add8e6;
+  min-height: 100px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.header-padding {
+  padding: 10px;
+}
+
+.main-padding {
+  padding: 30px;
+}
+
+.footer-padding-top {
+  padding-top: 10px;
+}
+
+.footer-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.cta-footer {
+  margin-top: 20px;
+  min-height: 70px;
+  width: 70%;
+}
+
+.container-cta-footer {
+  width: 100%;
+  border-top: 2px solid white;
+  margin-top: 10px;
+}
+
+.f-button {
+  padding: 5px;
+  background: #f08080;
+}
+/* FLEX FUCTIONS */
+
+.flex {
+  display: flex;
+}
+
+.f-grow {
+  flex-grow: 1;
+}
+
+.f-shrink {
+  flex-shrink: 0;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-f-end {
+  justify-content: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* COL % */
+
+.col25 {
+  width: 25%;
+}
+
+.col70 > .col25 {
+  padding: 10px;
+}
+
+.col30 {
+  width: 30%;
+  background-color: #f08080;
+  min-height: 450px;
+  padding: 10px;
+}
+
+.col40 {
+  width: 40%;
+  background-color: #ffc0cb;
+  min-height: 450px;
+}
+
+.col50 {
+  width: 50%;
+}
+
+.col60 {
+  width: 60%;
+  background-color: #1e90ff;
+}
+
+.col70 {
+  width: 70%;
+  background: #20b2aa;
+}
+
+.col100 {
+  width: 100%;
+  min-height: 700px;
+  background: #228b22;
+}
+
+/* BG-COLOR */
+
+.big-card {
+  width: 50%;
+  background-color: #ee82ee;
+  min-height: 300px;
+}
+
+.bg-blue {
+  background-color: #00008b;
+  min-height: 400px;
+  padding: 1rem, 0;
+  width: 100%;
+}
+
+.bg-grey {
+  background: #d3d3d3;
+}
+
+.bg-darkgrey {
+  background: #23272a;
+}
+
+.bg-cta-footer {
+  background: #7fffd4;
+}
