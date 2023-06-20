@@ -68,15 +68,16 @@ header {
 }
 
 .cta-footer {
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   min-height: 70px;
   width: 70%;
 }
 
 .container-cta-footer {
   width: 100%;
-  border-top: 2px solid white;
   margin-top: 10px;
+  border-top: 2px solid white;
 }
 
 .f-button {
