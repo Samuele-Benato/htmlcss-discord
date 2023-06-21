@@ -6,14 +6,6 @@
 
 /* GENERAL */
 
-.debug {
-  border: 2px dashed black;
-}
-
-.w-debug {
-  border: 2px dashed white;
-}
-
 body {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -44,7 +36,8 @@ header {
 .bg-header {
   background-image: url("../img/jumbo.png");
   background-size: cover;
-  min-height: 550px;
+  background-position: center;
+  min-height: 500px;
   padding: 1rem, 0;
   width: 100%;
 }
@@ -204,6 +197,7 @@ nav > ul > li {
 
 .header-container {
   width: 70%;
+  height: 4rem;
   margin: 20px auto;
 }
 
