@@ -91,6 +91,15 @@ nav > ul > li {
   padding-bottom: 40px;
 }
 
+.wave {
+  color: #d3d3d3;
+  display: block;
+}
+
+.upside-down {
+  transform: rotate(180deg);
+}
+
 /* FOOTER */
 
 .footer-left-title {
